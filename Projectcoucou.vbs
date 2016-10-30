@@ -1,10 +1,11 @@
-If DatePart("h",Time) = 10 Then
-IF DatePart("n",Time) = 10 Then 
-	strexo2 =DatePart("h",Time)
-		Wscript.Echo("Coucou" & strexo2)
+If DatePart("h",Time) <= 10 Then
+IF DatePart("n",Time) <= 10 Then 
+	strprojetcoucou =DatePart("h",Time)
+		Wscript.Echo("Coucou" & strprojetcoucou)
 		End If
 		Else 
 		Wscript.Echo("YOLOOOOOOOO")
 			
 
 			End If
+
